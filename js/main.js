@@ -153,6 +153,12 @@ $(window).resize(function(){
         top: ($(window).height() - $('.hover-bg .hover-text .text-content ').outerHeight())/6
     });
 	
+	 $('.single .entry-header .content, #page-banner .content').css({
+        position:'relative',
+       
+        top: ($(window).height() - $('.entry-header .content, #page-banner .content ').outerHeight())/2
+    });
+	
 	
    
 
